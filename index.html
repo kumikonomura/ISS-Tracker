@@ -11,21 +11,23 @@
             /* The width is the width of the web page */
         }
     </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/darkly/bootstrap.min.css">
 </head>
 
 <body>
     <h3>ISS Trackr</h3>
-    <!--The div element for the map -->
+    <!-- The div element for the map -->
     <div id="map"></div>
-    <button onclick="startTracking()"Start</button>
-    <button onclick="stopTracking()"Stop</button> 
+    <!-- <button onclick="startTracking()">start</button>
+    <button onclick="stopTracking()">stop</button> -->
+    <div class="buttons"></div>
     
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrHQlrqX4Dy66ywnC-Cs3LiKlhUkR6kvc&callback=initMap">
-    </script>
-        
     <!-- Javascript Link -->
     <script src="app.js"></script>
-
-</body>
-
+    <!-- Google Maps Link -->
+    <script async defer 
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrHQlrqX4Dy66ywnC-Cs3LiKlhUkR6kvc&callback=initMap">
+    </script>
+        
+    
 </html>
